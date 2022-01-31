@@ -2,14 +2,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>decisions.status.status__main_</groupId>
-        <artifactId>status0x005bMain0x005d</artifactId>
+        <groupId>decisions.status.status</groupId>
+        <artifactId>status</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>decisions.status.status__main_</groupId>
-    <artifactId>status0x005bMain0x005d-data-model</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>decisions.status.status</groupId>
+    <artifactId>computeStatus</artifactId>
+    <version>LATEST-SNAPSHOT</version>
     <packaging>decision-library</packaging>
 
     <build>
@@ -20,14 +20,21 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>status_DataModel</name>
+                            <name>compute-status</name>
                         </deployment>
                     </deployments>
-                <packageName>myModel</packageName>
+                <packageName>decisions.status.status.computestatus</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-<dependencies/>
+<dependencies>
+        <dependency>
+            <groupId>decisions.status.status</groupId>
+            <artifactId>member</artifactId>
+            <type>decision-library</type>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

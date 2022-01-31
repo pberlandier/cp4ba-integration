@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="decisions.status.status__main_:status0x005bMain0x005d-dmo" ruleAppVersion="1.0.0-SNAPSHOT" packageName="myModel" managingXom="true">
-  <name>status</name>
-  <uuid>504640aa-22bc-44d4-8b62-39a9af487d75</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="decisions.status.status:member" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.status.status.member" managingXom="true">
+  <name>Member</name>
+  <uuid>a8e40189-28bb-4055-b103-aae7d0767d84</uuid>
   <locales>en_US</locales>
-  <operations operationName="status">
-    <operation href="status.dop#40e6ba57-816e-4155-b963-8c9330e44cdb"/>
-    <properties key="ruleset.version">
-      <value><![CDATA[1.0]]></value>
-    </properties>
-  </operations>
   <versionPolicies label="Increment minor version numbers" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
     <description><![CDATA[Updates the minor version for each ruleset. Makes the new version available but retains previous versions.]]></description>
   </versionPolicies>

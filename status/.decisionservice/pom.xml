@@ -2,33 +2,39 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>decisions.status.status__main_</groupId>
-        <artifactId>status0x005bMain0x005d</artifactId>
+        <groupId>decisions.status.status</groupId>
+        <artifactId>status</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>status [main]DecisionService</artifactId>
+    <artifactId>statusDecisionService</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>decisions.status.status__main_</groupId>
-            <artifactId>status0x005bMain0x005d-data-model</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>decisions.status.status</groupId>
+            <artifactId>member</artifactId>
+            <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>decisions.status.status__main_</groupId>
-            <artifactId>status0x005bMain0x005d-dmo</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>decisions.status.status</groupId>
+            <artifactId>computeStatus</artifactId>
+            <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
             <version>${engine-compact-runtime.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.ibm.decision</groupId>
+            <artifactId>ml-integration-runtime</artifactId>
+            <version>${ml-integration-runtime.version}</version>
+        </dependency>
     </dependencies>
 
     
+
 
 <build>
         <resources>
@@ -55,18 +61,18 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>decisions.status.status__main_</groupId>
-                                    <artifactId>status0x005bMain0x005d-data-model</artifactId>
-                                    <version>1.0.0-SNAPSHOT</version>
+                                    <groupId>decisions.status.status</groupId>
+                                    <artifactId>member</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
                                     <includes>**/*.class</includes>
                                     <outputDirectory>${project.build.directory}/classes</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>decisions.status.status__main_</groupId>
-                                    <artifactId>status0x005bMain0x005d-dmo</artifactId>
-                                    <version>1.0.0-SNAPSHOT</version>
+                                    <groupId>decisions.status.status</groupId>
+                                    <artifactId>computeStatus</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
                                     <includes>**/*.class</includes>
