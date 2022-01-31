@@ -1,0 +1,19 @@
+
+# myModel.Member
+myModel.Member#concept.label = Member
+myModel.Member.Member(long,long)#phrase.navigation = a new {Member} where {0, segments} {1, spending} 
+myModel.Member.segments#phrase.action = set the segments of {this} to {segments}
+myModel.Member.segments#phrase.addition_setter = add {segments} to the segments of {this}
+myModel.Member.segments#phrase.navigation = {segments} of {this}
+myModel.Member.segments#phrase.subtraction_setter = subtract {segments} from the segments of {this}
+myModel.Member.spending#phrase.action = set the spending of {this} to {spending}
+myModel.Member.spending#phrase.addition_setter = add {spending} to the spending of {this}
+myModel.Member.spending#phrase.navigation = {spending} of {this}
+myModel.Member.spending#phrase.subtraction_setter = subtract {spending} from the spending of {this}
+
+# myModel.Status
+myModel.Status#concept.label = Status
+myModel.Status.Gold#instance.label = gold
+myModel.Status.Member#instance.label = member
+myModel.Status.Platinum#instance.label = platinum
+myModel.Status.Silver#instance.label = silver

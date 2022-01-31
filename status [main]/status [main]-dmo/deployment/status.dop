@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="status" targetRuleProjectName="status [main]-dmo">
+  <name>statusDecision</name>
+  <uuid>40e6ba57-816e-4155-b963-8c9330e44cdb</uuid>
+  <decisionModel href="../rules/status.dmo#15e9f8fe-a68e-494a-9893-4351d45c7871"/>
+  <targetRuleProject href="../../status%20%5Bmain%5D-dmo#f9bf5985-5705-48db-b502-0ffbd0265b64"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
