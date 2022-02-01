@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>status</name>
+  <uuid>634c3a6b-653c-4b86-9062-5d6e26de92cc</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="status" name="status" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_1" name="member">
+        <description>Get Status</description>
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="myModel.Member" collection="false" name="the member"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_1_ii" name="member" typeRef="myModel.Member"/>
+    </inputData>
+    <decision id="node_0" name="member status">
+        <description>get status</description>
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="myModel.Member" collection="false" name="the member"/>
+                <output bomType="myModel.Status" collection="false" name="the member status"/>
+                <rule defaultRule="true" href="member%20status/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+                <rule defaultRule="false" href="member%20status/dt-1.dmt" kind="DecisionTable" name="dt-1"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_0_ii" name="member status" typeRef="myModel.Status"/>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
+        </informationRequirement>
+    </decision>
+</definitions></definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>
