@@ -16,6 +16,7 @@
         <variable id="node_0_ii" name="member" typeRef="Member"/>
     </inputData>
     <decision id="node_1" name="member status">
+        <description>Computes frequent flyer status</description>
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="Member" collection="false" name="member"/>
