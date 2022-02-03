@@ -76,12 +76,12 @@
                 </Condition>
                 <Condition>
                     <Expression>
-                        <Param><![CDATA[50]]></Param>
+                        <Param><![CDATA[30]]></Param>
                     </Expression>
                     <Partition DefId="C1">
                         <Condition>
                             <Expression>
-                                <Param><![CDATA[10000]]></Param>
+                                <Param><![CDATA[8500]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
