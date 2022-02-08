@@ -1,0 +1,45 @@
+
+
+public class Member
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Member"
+        property "de.generated" "true"
+{
+    public java.lang.Long segments
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "segments"
+                property update "true";
+    public java.lang.Long spending
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "spending"
+                property update "true";
+    public Member(java.lang.Long segments, java.lang.Long spending)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Member()
+                property "dataio.default" "true";
+}
+
+public class Status
+        extends java.lang.Enum
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Status"
+        property "de.generated" "true"
+{
+    domain {static gold, static basic, static platinum, static silver}
+    public static final readonly Status basic
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "basic";
+    public static final readonly Status gold
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "gold";
+    public static final readonly Status platinum
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "platinum";
+    public static final readonly Status silver
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "silver";
+}
+
