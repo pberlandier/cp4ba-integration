@@ -1,0 +1,19 @@
+
+# Member
+Member#concept.label = Member
+Member.Member(java.lang.Long,java.lang.Long)#phrase.navigation = a new {Member} where {0, segments} {1, spending}
+Member.segments#phrase.action = set the segments of {this} to {segments}
+Member.segments#phrase.addition_setter = add {segments} to the segments of {this}
+Member.segments#phrase.navigation = {segments} of {this}
+Member.segments#phrase.subtraction_setter = subtract {segments} from the segments of {this}
+Member.spending#phrase.action = set the spending of {this} to {spending}
+Member.spending#phrase.addition_setter = add {spending} to the spending of {this}
+Member.spending#phrase.navigation = {spending} of {this}
+Member.spending#phrase.subtraction_setter = subtract {spending} from the spending of {this}
+
+# Status
+Status#concept.label = Status
+Status.basic#instance.label = basic
+Status.gold#instance.label = gold
+Status.platinum#instance.label = platinum
+Status.silver#instance.label = silver
