@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="compute status">
-  <name>compute-status</name>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="get status">
+  <name>get-status</name>
   <uuid>ebe0750e-e445-4696-893e-4acdf5f5025e</uuid>
   <decisionModel href="../rules/decisionModel.dmo#d48e73a9-2781-4423-966d-482e52244377"/>
-  <targetRuleProject href="../../compute%20status#47ccd5af-371d-4367-a131-451bc40621e5"/>
+  <targetRuleProject href="../../get%20status#47ccd5af-371d-4367-a131-451bc40621e5"/>
   <tags key="operationDescription">
     <value><![CDATA[""]]></value>
   </tags>

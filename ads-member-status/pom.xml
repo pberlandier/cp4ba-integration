@@ -19,7 +19,7 @@
     </properties>
     <modules>
         <module>Member</module>
-        <module>compute status</module>
+        <module>get status</module>
         <module>.decisionservice</module>
     </modules>
 

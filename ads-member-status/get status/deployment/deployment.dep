@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="decisions.status.status:computeStatus" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.status.status.computestatus" managingXom="true">
-  <name>compute-status</name>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="decisions.status.status:getStatus" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.status.status.computestatus" managingXom="true">
+  <name>get-status</name>
   <uuid>c483de58-e274-48df-a312-50410f238973</uuid>
   <locales>en_US</locales>
   <operations operationName="operation">

@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>decisions.status.status</groupId>
-    <artifactId>computeStatus</artifactId>
+    <artifactId>getStatus</artifactId>
     <version>LATEST-SNAPSHOT</version>
     <packaging>decision-library</packaging>
 
@@ -20,7 +20,7 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>compute-status</name>
+                            <name>get-status</name>
                         </deployment>
                     </deployments>
                 <packageName>decisions.status.status.computestatus</packageName>
